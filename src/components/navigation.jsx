@@ -15,9 +15,12 @@ export const Navigation = (props) => {
             <span className='icon-bar'></span>{' '}
             <span className='icon-bar'></span>{' '}
           </button>
+          
           <a className='navbar-brand page-scroll' href='#page-top'>
-            React Landing Page
-          </a>{' '}
+            Tecrov  
+          </a>
+          <img src="img/tecrovIcon.png" className="tecrovicon"/>
+
         </div>
 
         <div
@@ -27,37 +30,37 @@ export const Navigation = (props) => {
           <ul className='nav navbar-nav navbar-right'>
             <li>
               <a href='#features' className='page-scroll'>
-                Features
+                O que é ROV
               </a>
             </li>
             <li>
               <a href='#about' className='page-scroll'>
-                About
+                Quem somos
               </a>
             </li>
             <li>
               <a href='#services' className='page-scroll'>
-                Services
+                Curso
               </a>
             </li>
             <li>
               <a href='#portfolio' className='page-scroll'>
-                Gallery
+                Galeria
               </a>
             </li>
             <li>
               <a href='#testimonials' className='page-scroll'>
-                Testimonials
+                Testemunhas
               </a>
             </li>
             <li>
               <a href='#team' className='page-scroll'>
-                Team
+                Time
               </a>
             </li>
             <li>
               <a href='#contact' className='page-scroll'>
-                Contact
+                Contato
               </a>
             </li>
           </ul>

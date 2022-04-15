@@ -3,26 +3,82 @@ export const Testimonials = (props) => {
     <div id='testimonials'>
       <div className='container'>
         <div className='section-title text-center'>
-          <h2>What our clients say</h2>
+          <h2>Testemunhas de Ex-Alunos</h2>
         </div>
         <div className='row'>
-          {props.data
-            ? props.data.map((d, i) => (
-                <div key={`${d.name}-${i}`} className='col-md-4'>
-                  <div className='testimonial'>
+              <div className='col-md-4'>
+                <div className='testimonial'>
                     <div className='testimonial-image'>
-                      {' '}
-                      <img src={d.img} alt='' />{' '}
+                      <img src="img/about.png" alt="imagem teste"/>
                     </div>
                     <div className='testimonial-content'>
-                      <p>"{d.text}"</p>
-                      <div className='testimonial-meta'> - {d.name} </div>
+                      <p>Muito bom!</p>
+                      <div className='testimonial-meta'> Igor Neves </div>
                     </div>
-                  </div>
                 </div>
-              ))
-            : 'loading'}
+              </div>
+
+              <div className='col-md-4'>
+                <div className='testimonial'>
+                    <div className='testimonial-image'>
+                      <img src="img/about.png" alt="imagem teste"/>
+                    </div>
+                    <div className='testimonial-content'>
+                      <p>Muito bom!</p>
+                      <div className='testimonial-meta'> Igor Neves </div>
+                    </div>
+                </div>
+              </div>
+
+              <div className='col-md-4'>
+                <div className='testimonial'>
+                    <div className='testimonial-image'>
+                      <img src="img/about.png" alt="imagem teste"/>
+                    </div>
+                    <div className='testimonial-content'>
+                      <p>Muito bom!</p>
+                      <div className='testimonial-meta'> Igor Neves </div>
+                    </div>
+                </div>
+              </div>
+
+              <div className='col-md-4'>
+                <div className='testimonial'>
+                    <div className='testimonial-image'>
+                      <img src="img/about.png" alt="imagem teste"/>
+                    </div>
+                    <div className='testimonial-content'>
+                      <p>Muito bom!</p>
+                      <div className='testimonial-meta'> Igor Neves </div>
+                    </div>
+                </div>
+              </div>
+
+              <div className='col-md-4'>
+                <div className='testimonial'>
+                    <div className='testimonial-image'>
+                      <img src="img/about.png" alt="imagem teste"/>
+                    </div>
+                    <div className='testimonial-content'>
+                      <p>Muito bom!</p>
+                      <div className='testimonial-meta'> Igor Neves </div>
+                    </div>
+                </div>
+              </div>
+
+              <div className='col-md-4'>
+                <div className='testimonial'>
+                    <div className='testimonial-image'>
+                      <img src="img/about.png" alt="imagem teste"/>
+                    </div>
+                    <div className='testimonial-content'>
+                      <p>Muito bom!</p>
+                      <div className='testimonial-meta'> Igor Neves </div>
+                    </div>
+                </div>
+              </div>
         </div>
+
       </div>
     </div>
   )
