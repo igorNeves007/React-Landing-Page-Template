@@ -19,7 +19,7 @@ export const Navigation = (props) => {
           <a className='navbar-brand page-scroll' href='#page-top'>
             Tecrov  
           </a>
-          <img src="img/tecrovIcon.png" className="tecrovicon"/>
+          <img src="img/tecrovIcon.png" alt="" className="tecrovicon"/>
 
         </div>
 
