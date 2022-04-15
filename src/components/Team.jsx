@@ -18,6 +18,26 @@ export const Team = (props) => {
                     </div>
                   </div>
                 </div>
+
+                <div className='col-md-3 col-sm-6 team'>
+                  <div className='thumbnail'>
+                    <img src="img/adam.png" alt='...' className='team-img' />
+                    <div className='caption'>
+                      <h4>Adam Marcello de Brito</h4>
+                      <p>CEO e Instrutor</p>
+                    </div>
+                  </div>
+                </div>
+                
+                <div className='col-md-3 col-sm-6 team'>
+                  <div className='thumbnail'>
+                    <img src="img/adam.png" alt='...' className='team-img' />
+                    <div className='caption'>
+                      <h4>Adam Marcello de Brito</h4>
+                      <p>CEO e Instrutor</p>
+                    </div>
+                  </div>
+                </div>
         </div>
       </div>
     </div>
