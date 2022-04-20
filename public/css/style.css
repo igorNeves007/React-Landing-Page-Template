@@ -7,6 +7,9 @@ html {
   font-weight: 400;
   width: 100% !important;
   height: 100% !important;
+  margin: 0px;
+  padding: 0px;
+  overflow-x: hidden; 
 }
 h2,
 h3,
@@ -255,6 +258,7 @@ header .intro-text {
   padding: 100px 0;
   background: linear-gradient(to right, #eb5757 0%, #000000 100%);
   color: #fff;
+
 }
 
 #features h2 {
@@ -629,8 +633,11 @@ label {
 }
 
 @media (max-width: 768px) {
-  #about img {
+  /* #about img {
     margin: 50px 0;
+  } */
+  #features p{
+    clear: right;
   }
 }
 
