@@ -636,8 +636,11 @@ label {
   /* #about img {
     margin: 50px 0;
   } */
-  #features p{
-    clear: right;
+  #features img{
+    float: none;
+  }
+  #rovAbout{
+    float: none;
   }
 }
 
