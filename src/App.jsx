@@ -24,6 +24,7 @@ const App = () => {
   }, []);
 
   return (
+    <div className="centerMobile">
     <div>
       <Navigation />
       <Header data={landingPageData.Header} />
@@ -34,6 +35,7 @@ const App = () => {
       <Testimonials data={landingPageData.Testimonials} />
       <Team data={landingPageData.Team} />
       <Contact data={landingPageData.Contact} />
+    </div>
     </div>
   );
 };

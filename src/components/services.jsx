@@ -5,7 +5,7 @@ export const Services = (props) => {
         <div className='section-title'>
           <h2>Plano de Curso</h2>
           <p>
-          Plano do Curso de Robótica Submarina - ROV
+          Plano do Curso de Robótica Submarina
           </p>
         </div>
         <div className='row'>
