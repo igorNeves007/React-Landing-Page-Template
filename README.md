@@ -1,6 +1,9 @@
 ## Description
 This is a ReactJS landing page, made for Tecrov with in one page view. 
 
+#Access link:
+tecrov.netlify.app/
+
 ## Screenshots:
 ![image](https://user-images.githubusercontent.com/88206626/165628234-760dadee-8b22-40d0-a3fb-258d54c423ce.png)
 
