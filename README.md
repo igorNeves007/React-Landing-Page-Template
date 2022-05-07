@@ -1,5 +1,5 @@
 ## Description
-This is a ReactJS landing page, made for Tecrov with in one page view. 
+This is a ReactJS landing page, made for Tecrov in one page view model. 
 
 <b> Access link: </b>
 [tecrov.netlify.app/](https://tecrov.netlify.app/)
